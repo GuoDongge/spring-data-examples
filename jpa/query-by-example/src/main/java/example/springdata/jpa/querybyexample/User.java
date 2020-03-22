@@ -36,6 +36,6 @@ import javax.persistence.Id;
 public class User {
 
 	private @Id @GeneratedValue Long id;
-	private final String firstname, lastname;
-	private final Integer age;
+	private  String firstname, lastname;
+	private  Integer age;
 }
